@@ -255,7 +255,7 @@ echo "format finish" //추가
 npx husky add .husky/pre-push "npm run lint"
 ```
 
-### lint warning level 설정
+### eslint warning level 설정
 
 ```
 // .eslintrc
