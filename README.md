@@ -248,7 +248,7 @@ npm run format
 echo "format finish" //추가
 ```
 
-- push 전에 eslint 다 통과하고나서 push 하고싶다.
+- push 전에 eslint 다 통과하고나서 push
 - pre-push hook
 
 ```
