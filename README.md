@@ -273,3 +273,23 @@ var c
 ```
 npm run lint
 ```
+
+- console에 대한 lint 설정
+
+```
+"no-console": ["warn", { "allow": ["warn", "error", "info"] }]
+또는
+"no-console": ["error", { "allow": ["warn", "error", "info"] }]
+```
+
+- lint에서 warning도 엄격하게 하나도 허용하지 않는 방법
+
+```
+// package.json
+
+{
+  "scripts": {
+		"lint": "eslint --cache --max-warnings=0",
+  },
+}
+```
