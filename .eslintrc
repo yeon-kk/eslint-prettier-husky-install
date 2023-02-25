@@ -2,7 +2,7 @@
   "env": {
     "es6": true //es5가 기본이기 때문에 es6라는 것을 알림
   },
-  "extends": ["./eslintrc.base.js"],
+  "extends": ["./.eslintrc.base.js"],
   "rules": {
     "no-var": "error" // var 금지
     //"eqeqeq": "error" // 일치 연산자 사용 필수
