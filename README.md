@@ -1,4 +1,4 @@
-## init-project(출처: wanted-pre-onboarding-frontend-9th)
+## init-project(원티드 프리온보딩 프론트엔드 9th)
 
 1. eslint: CRA의 경우 내장되어 있음
 
